@@ -1,0 +1,184 @@
+BRUTE FORCE ATTEMPTS REPORT:
+PURPOSE: Extracts failed logins and prints out the ip addresses and prints number of attempts within a ten minute window
+Print each IP, and how many times it appears as a failed login within a 10 minute window, as there are multiple 10 minute windows, there are multiple instances of same IP:
+
+IP: 198.51.100.66, Failed Attempts: 8, First Attempt: 2025-03-10T13:53:01, Last Attempt: 2025-03-10T14:02:04
+IP: 198.51.100.66, Failed Attempts: 5, First Attempt: 2025-03-10T14:14:56, Last Attempt: 2025-03-10T14:19:56
+IP: 198.51.100.66, Failed Attempts: 6, First Attempt: 2025-03-10T14:43:59, Last Attempt: 2025-03-10T14:53:23
+IP: 198.51.100.66, Failed Attempts: 5, First Attempt: 2025-03-10T15:00:07, Last Attempt: 2025-03-10T15:08:47
+IP: 198.51.100.66, Failed Attempts: 11, First Attempt: 2025-03-10T15:11:35, Last Attempt: 2025-03-10T15:20:16
+IP: 198.51.100.66, Failed Attempts: 6, First Attempt: 2025-03-10T15:32:51, Last Attempt: 2025-03-10T15:41:27
+IP: 198.51.100.66, Failed Attempts: 10, First Attempt: 2025-03-10T15:44:17, Last Attempt: 2025-03-10T15:53:19
+IP: 198.51.100.66, Failed Attempts: 6, First Attempt: 2025-03-10T15:54:49, Last Attempt: 2025-03-10T16:03:33
+IP: 198.51.100.66, Failed Attempts: 7, First Attempt: 2025-03-10T16:20:19, Last Attempt: 2025-03-10T16:30:05
+IP: 198.51.100.66, Failed Attempts: 5, First Attempt: 2025-03-10T16:32:23, Last Attempt: 2025-03-10T16:41:22
+IP: 198.51.100.66, Failed Attempts: 5, First Attempt: 2025-03-10T16:50:43, Last Attempt: 2025-03-10T16:58:48
+IP: 198.51.100.77, Failed Attempts: 6, First Attempt: 2025-03-10T13:45:16, Last Attempt: 2025-03-10T13:51:58
+IP: 198.51.100.77, Failed Attempts: 5, First Attempt: 2025-03-10T14:14:30, Last Attempt: 2025-03-10T14:23:19
+IP: 198.51.100.77, Failed Attempts: 8, First Attempt: 2025-03-10T14:25:07, Last Attempt: 2025-03-10T14:34:54
+IP: 198.51.100.77, Failed Attempts: 7, First Attempt: 2025-03-10T14:50:25, Last Attempt: 2025-03-10T14:59:42
+IP: 198.51.100.77, Failed Attempts: 6, First Attempt: 2025-03-10T15:13:22, Last Attempt: 2025-03-10T15:21:25
+IP: 198.51.100.77, Failed Attempts: 6, First Attempt: 2025-03-10T15:23:49, Last Attempt: 2025-03-10T15:29:34
+IP: 198.51.100.77, Failed Attempts: 7, First Attempt: 2025-03-10T15:42:45, Last Attempt: 2025-03-10T15:51:54
+IP: 198.51.100.77, Failed Attempts: 6, First Attempt: 2025-03-10T15:55:49, Last Attempt: 2025-03-10T16:04:27
+IP: 198.51.100.77, Failed Attempts: 6, First Attempt: 2025-03-10T16:14:47, Last Attempt: 2025-03-10T16:23:30
+IP: 198.51.100.77, Failed Attempts: 8, First Attempt: 2025-03-10T16:25:10, Last Attempt: 2025-03-10T16:34:54
+IP: 198.51.100.77, Failed Attempts: 6, First Attempt: 2025-03-10T17:01:06, Last Attempt: 2025-03-10T17:09:46
+IP: 198.51.100.55, Failed Attempts: 6, First Attempt: 2025-03-10T14:07:21, Last Attempt: 2025-03-10T14:17:06
+IP: 198.51.100.55, Failed Attempts: 5, First Attempt: 2025-03-10T14:18:12, Last Attempt: 2025-03-10T14:24:05
+IP: 198.51.100.55, Failed Attempts: 9, First Attempt: 2025-03-10T14:33:26, Last Attempt: 2025-03-10T14:42:12
+IP: 198.51.100.55, Failed Attempts: 5, First Attempt: 2025-03-10T15:01:33, Last Attempt: 2025-03-10T15:10:29
+IP: 198.51.100.55, Failed Attempts: 5, First Attempt: 2025-03-10T15:22:09, Last Attempt: 2025-03-10T15:30:09
+IP: 198.51.100.55, Failed Attempts: 7, First Attempt: 2025-03-10T16:04:16, Last Attempt: 2025-03-10T16:14:13
+IP: 198.51.100.55, Failed Attempts: 5, First Attempt: 2025-03-10T16:18:06, Last Attempt: 2025-03-10T16:27:34
+IP: 198.51.100.55, Failed Attempts: 5, First Attempt: 2025-03-10T16:28:40, Last Attempt: 2025-03-10T16:37:46
+IP: 192.0.2.77, Failed Attempts: 5, First Attempt: 2025-03-10T13:52:23, Last Attempt: 2025-03-10T14:02:06
+IP: 192.0.2.77, Failed Attempts: 5, First Attempt: 2025-03-10T14:05:05, Last Attempt: 2025-03-10T14:12:33
+IP: 192.0.2.77, Failed Attempts: 5, First Attempt: 2025-03-10T14:35:53, Last Attempt: 2025-03-10T14:43:55
+IP: 192.0.2.77, Failed Attempts: 8, First Attempt: 2025-03-10T14:46:19, Last Attempt: 2025-03-10T14:55:01
+IP: 192.0.2.77, Failed Attempts: 8, First Attempt: 2025-03-10T15:05:59, Last Attempt: 2025-03-10T15:15:03
+IP: 192.0.2.77, Failed Attempts: 6, First Attempt: 2025-03-10T15:51:19, Last Attempt: 2025-03-10T15:59:34
+IP: 192.0.2.77, Failed Attempts: 7, First Attempt: 2025-03-10T16:12:08, Last Attempt: 2025-03-10T16:21:50
+IP: 192.0.2.77, Failed Attempts: 5, First Attempt: 2025-03-10T16:48:30, Last Attempt: 2025-03-10T16:57:50
+IP: 203.0.113.150, Failed Attempts: 5, First Attempt: 2025-03-10T14:19:05, Last Attempt: 2025-03-10T14:24:34
+IP: 203.0.113.150, Failed Attempts: 5, First Attempt: 2025-03-10T15:07:37, Last Attempt: 2025-03-10T15:16:38
+IP: 203.0.113.150, Failed Attempts: 7, First Attempt: 2025-03-10T15:22:44, Last Attempt: 2025-03-10T15:32:07
+IP: 203.0.113.150, Failed Attempts: 7, First Attempt: 2025-03-10T15:34:37, Last Attempt: 2025-03-10T15:43:08
+IP: 203.0.113.150, Failed Attempts: 6, First Attempt: 2025-03-10T15:44:51, Last Attempt: 2025-03-10T15:47:49
+IP: 203.0.113.150, Failed Attempts: 5, First Attempt: 2025-03-10T15:55:29, Last Attempt: 2025-03-10T16:00:14
+IP: 203.0.113.150, Failed Attempts: 5, First Attempt: 2025-03-10T16:19:49, Last Attempt: 2025-03-10T16:24:46
+IP: 203.0.113.150, Failed Attempts: 6, First Attempt: 2025-03-10T16:32:01, Last Attempt: 2025-03-10T16:40:55
+IP: 203.0.113.150, Failed Attempts: 5, First Attempt: 2025-03-10T16:49:15, Last Attempt: 2025-03-10T16:57:50
+IP: 203.0.113.46, Failed Attempts: 6, First Attempt: 2025-03-10T13:55:30, Last Attempt: 2025-03-10T14:05:04
+IP: 203.0.113.46, Failed Attempts: 7, First Attempt: 2025-03-10T14:05:32, Last Attempt: 2025-03-10T14:13:52
+IP: 203.0.113.46, Failed Attempts: 6, First Attempt: 2025-03-10T14:40:40, Last Attempt: 2025-03-10T14:49:31
+IP: 203.0.113.46, Failed Attempts: 7, First Attempt: 2025-03-10T15:05:49, Last Attempt: 2025-03-10T15:15:21
+IP: 203.0.113.46, Failed Attempts: 5, First Attempt: 2025-03-10T15:44:06, Last Attempt: 2025-03-10T15:51:32
+IP: 203.0.113.46, Failed Attempts: 5, First Attempt: 2025-03-10T15:54:16, Last Attempt: 2025-03-10T16:03:22
+IP: 203.0.113.46, Failed Attempts: 8, First Attempt: 2025-03-10T16:16:31, Last Attempt: 2025-03-10T16:24:46
+IP: 203.0.113.46, Failed Attempts: 5, First Attempt: 2025-03-10T16:30:43, Last Attempt: 2025-03-10T16:38:13
+IP: 203.0.113.46, Failed Attempts: 5, First Attempt: 2025-03-10T17:03:19, Last Attempt: 2025-03-10T17:12:34
+IP: 192.0.2.99, Failed Attempts: 5, First Attempt: 2025-03-10T13:46:02, Last Attempt: 2025-03-10T13:54:21
+IP: 192.0.2.99, Failed Attempts: 6, First Attempt: 2025-03-10T14:02:29, Last Attempt: 2025-03-10T14:10:53
+IP: 192.0.2.99, Failed Attempts: 5, First Attempt: 2025-03-10T14:30:03, Last Attempt: 2025-03-10T14:38:49
+IP: 192.0.2.99, Failed Attempts: 7, First Attempt: 2025-03-10T14:41:09, Last Attempt: 2025-03-10T14:48:57
+IP: 192.0.2.99, Failed Attempts: 5, First Attempt: 2025-03-10T15:06:23, Last Attempt: 2025-03-10T15:16:09
+IP: 192.0.2.99, Failed Attempts: 5, First Attempt: 2025-03-10T15:28:29, Last Attempt: 2025-03-10T15:37:21
+IP: 192.0.2.99, Failed Attempts: 6, First Attempt: 2025-03-10T15:38:55, Last Attempt: 2025-03-10T15:48:23
+IP: 192.0.2.99, Failed Attempts: 9, First Attempt: 2025-03-10T15:50:04, Last Attempt: 2025-03-10T15:58:24
+IP: 192.0.2.99, Failed Attempts: 5, First Attempt: 2025-03-10T16:04:44, Last Attempt: 2025-03-10T16:14:35
+IP: 192.0.2.99, Failed Attempts: 6, First Attempt: 2025-03-10T16:25:53, Last Attempt: 2025-03-10T16:30:01
+IP: 192.0.2.99, Failed Attempts: 6, First Attempt: 2025-03-10T16:37:53, Last Attempt: 2025-03-10T16:47:42
+IP: 203.0.113.45, Failed Attempts: 11, First Attempt: 2025-03-10T13:46:12, Last Attempt: 2025-03-10T13:56:08
+IP: 203.0.113.45, Failed Attempts: 8, First Attempt: 2025-03-10T13:57:08, Last Attempt: 2025-03-10T14:06:26
+IP: 203.0.113.45, Failed Attempts: 5, First Attempt: 2025-03-10T14:07:22, Last Attempt: 2025-03-10T14:17:14
+IP: 203.0.113.45, Failed Attempts: 5, First Attempt: 2025-03-10T14:19:12, Last Attempt: 2025-03-10T14:29:03
+IP: 203.0.113.45, Failed Attempts: 6, First Attempt: 2025-03-10T14:36:07, Last Attempt: 2025-03-10T14:43:00
+IP: 203.0.113.45, Failed Attempts: 8, First Attempt: 2025-03-10T14:47:48, Last Attempt: 2025-03-10T14:56:30
+IP: 203.0.113.45, Failed Attempts: 5, First Attempt: 2025-03-10T15:13:40, Last Attempt: 2025-03-10T15:22:52
+IP: 203.0.113.45, Failed Attempts: 6, First Attempt: 2025-03-10T15:28:33, Last Attempt: 2025-03-10T15:38:30
+IP: 203.0.113.45, Failed Attempts: 6, First Attempt: 2025-03-10T15:39:45, Last Attempt: 2025-03-10T15:48:53
+IP: 203.0.113.45, Failed Attempts: 6, First Attempt: 2025-03-10T15:49:51, Last Attempt: 2025-03-10T15:58:47
+IP: 203.0.113.45, Failed Attempts: 5, First Attempt: 2025-03-10T16:02:30, Last Attempt: 2025-03-10T16:12:16
+IP: 203.0.113.45, Failed Attempts: 5, First Attempt: 2025-03-10T16:17:35, Last Attempt: 2025-03-10T16:26:40
+IP: 203.0.113.45, Failed Attempts: 6, First Attempt: 2025-03-10T16:33:58, Last Attempt: 2025-03-10T16:43:50
+IP: 203.0.113.45, Failed Attempts: 5, First Attempt: 2025-03-10T17:00:36, Last Attempt: 2025-03-10T17:09:05
+IP: 198.51.100.33, Failed Attempts: 6, First Attempt: 2025-03-10T13:55:21, Last Attempt: 2025-03-10T14:05:21
+IP: 198.51.100.33, Failed Attempts: 6, First Attempt: 2025-03-10T14:15:39, Last Attempt: 2025-03-10T14:25:04
+IP: 198.51.100.33, Failed Attempts: 6, First Attempt: 2025-03-10T14:39:58, Last Attempt: 2025-03-10T14:49:54
+IP: 198.51.100.33, Failed Attempts: 8, First Attempt: 2025-03-10T14:50:32, Last Attempt: 2025-03-10T14:59:53
+IP: 198.51.100.33, Failed Attempts: 7, First Attempt: 2025-03-10T15:02:47, Last Attempt: 2025-03-10T15:10:49
+IP: 198.51.100.33, Failed Attempts: 7, First Attempt: 2025-03-10T15:25:28, Last Attempt: 2025-03-10T15:34:27
+IP: 198.51.100.33, Failed Attempts: 10, First Attempt: 2025-03-10T15:40:47, Last Attempt: 2025-03-10T15:50:42
+IP: 198.51.100.33, Failed Attempts: 5, First Attempt: 2025-03-10T16:14:31, Last Attempt: 2025-03-10T16:24:30
+IP: 198.51.100.33, Failed Attempts: 6, First Attempt: 2025-03-10T16:53:34, Last Attempt: 2025-03-10T17:03:11
+IP: 203.0.113.200, Failed Attempts: 6, First Attempt: 2025-03-10T14:00:40, Last Attempt: 2025-03-10T14:08:24
+IP: 203.0.113.200, Failed Attempts: 8, First Attempt: 2025-03-10T14:10:45, Last Attempt: 2025-03-10T14:20:15
+IP: 203.0.113.200, Failed Attempts: 6, First Attempt: 2025-03-10T14:30:24, Last Attempt: 2025-03-10T14:39:39
+IP: 203.0.113.200, Failed Attempts: 6, First Attempt: 2025-03-10T14:44:41, Last Attempt: 2025-03-10T14:53:57
+IP: 203.0.113.200, Failed Attempts: 6, First Attempt: 2025-03-10T15:13:29, Last Attempt: 2025-03-10T15:21:36
+IP: 203.0.113.200, Failed Attempts: 5, First Attempt: 2025-03-10T15:25:39, Last Attempt: 2025-03-10T15:34:46
+IP: 203.0.113.200, Failed Attempts: 5, First Attempt: 2025-03-10T15:58:39, Last Attempt: 2025-03-10T16:06:11
+IP: 203.0.113.200, Failed Attempts: 5, First Attempt: 2025-03-10T16:17:25, Last Attempt: 2025-03-10T16:25:44
+IP: 203.0.113.200, Failed Attempts: 5, First Attempt: 2025-03-10T16:48:06, Last Attempt: 2025-03-10T16:58:02
+IP: 198.51.100.88, Failed Attempts: 5, First Attempt: 2025-03-10T13:47:34, Last Attempt: 2025-03-10T13:55:36
+IP: 198.51.100.88, Failed Attempts: 11, First Attempt: 2025-03-10T13:58:02, Last Attempt: 2025-03-10T14:07:39
+IP: 198.51.100.88, Failed Attempts: 6, First Attempt: 2025-03-10T14:27:19, Last Attempt: 2025-03-10T14:36:46
+IP: 198.51.100.88, Failed Attempts: 8, First Attempt: 2025-03-10T14:48:43, Last Attempt: 2025-03-10T14:58:29
+IP: 198.51.100.88, Failed Attempts: 5, First Attempt: 2025-03-10T14:59:08, Last Attempt: 2025-03-10T15:04:17
+IP: 198.51.100.88, Failed Attempts: 8, First Attempt: 2025-03-10T15:23:06, Last Attempt: 2025-03-10T15:32:24
+IP: 198.51.100.88, Failed Attempts: 5, First Attempt: 2025-03-10T15:44:40, Last Attempt: 2025-03-10T15:54:35
+IP: 198.51.100.88, Failed Attempts: 5, First Attempt: 2025-03-10T15:57:28, Last Attempt: 2025-03-10T16:04:11
+IP: 198.51.100.88, Failed Attempts: 5, First Attempt: 2025-03-10T16:07:44, Last Attempt: 2025-03-10T16:16:13
+IP: 198.51.100.88, Failed Attempts: 7, First Attempt: 2025-03-10T16:17:50, Last Attempt: 2025-03-10T16:26:45
+IP: 198.51.100.88, Failed Attempts: 5, First Attempt: 2025-03-10T16:31:44, Last Attempt: 2025-03-10T16:41:14
+IP: 203.0.113.100, Failed Attempts: 6, First Attempt: 2025-03-10T15:19:33, Last Attempt: 2025-03-10T15:26:48
+IP: 203.0.113.100, Failed Attempts: 5, First Attempt: 2025-03-10T16:09:56, Last Attempt: 2025-03-10T16:18:47
+IP: 203.0.113.100, Failed Attempts: 5, First Attempt: 2025-03-10T16:38:33, Last Attempt: 2025-03-10T16:48:21
+IP: 203.0.113.100, Failed Attempts: 5, First Attempt: 2025-03-10T16:49:58, Last Attempt: 2025-03-10T16:59:46
+IP: 192.0.2.55, Failed Attempts: 6, First Attempt: 2025-03-10T13:58:15, Last Attempt: 2025-03-10T14:07:36
+IP: 192.0.2.55, Failed Attempts: 8, First Attempt: 2025-03-10T14:09:26, Last Attempt: 2025-03-10T14:16:11
+IP: 192.0.2.55, Failed Attempts: 11, First Attempt: 2025-03-10T14:20:38, Last Attempt: 2025-03-10T14:29:52
+IP: 192.0.2.55, Failed Attempts: 6, First Attempt: 2025-03-10T14:35:31, Last Attempt: 2025-03-10T14:43:30
+IP: 192.0.2.55, Failed Attempts: 5, First Attempt: 2025-03-10T14:48:05, Last Attempt: 2025-03-10T14:57:56
+IP: 192.0.2.55, Failed Attempts: 5, First Attempt: 2025-03-10T15:00:00, Last Attempt: 2025-03-10T15:07:16
+IP: 192.0.2.55, Failed Attempts: 5, First Attempt: 2025-03-10T15:24:20, Last Attempt: 2025-03-10T15:33:13
+IP: 192.0.2.55, Failed Attempts: 7, First Attempt: 2025-03-10T15:35:21, Last Attempt: 2025-03-10T15:43:43
+IP: 192.0.2.55, Failed Attempts: 8, First Attempt: 2025-03-10T16:11:43, Last Attempt: 2025-03-10T16:20:46
+IP: 192.0.2.55, Failed Attempts: 5, First Attempt: 2025-03-10T16:32:34, Last Attempt: 2025-03-10T16:41:17
+IP: 192.0.2.55, Failed Attempts: 5, First Attempt: 2025-03-10T16:42:44, Last Attempt: 2025-03-10T16:47:27
+IP: 192.0.2.55, Failed Attempts: 5, First Attempt: 2025-03-10T17:01:53, Last Attempt: 2025-03-10T17:10:47
+IP: 192.0.2.13, Failed Attempts: 6, First Attempt: 2025-03-10T13:48:24, Last Attempt: 2025-03-10T13:56:15
+IP: 192.0.2.13, Failed Attempts: 5, First Attempt: 2025-03-10T14:13:33, Last Attempt: 2025-03-10T14:22:52
+IP: 192.0.2.13, Failed Attempts: 7, First Attempt: 2025-03-10T14:23:36, Last Attempt: 2025-03-10T14:33:20
+IP: 192.0.2.13, Failed Attempts: 9, First Attempt: 2025-03-10T14:33:54, Last Attempt: 2025-03-10T14:42:22
+IP: 192.0.2.13, Failed Attempts: 5, First Attempt: 2025-03-10T15:07:07, Last Attempt: 2025-03-10T15:16:21
+IP: 192.0.2.13, Failed Attempts: 5, First Attempt: 2025-03-10T15:39:14, Last Attempt: 2025-03-10T15:45:08
+IP: 192.0.2.13, Failed Attempts: 5, First Attempt: 2025-03-10T15:50:41, Last Attempt: 2025-03-10T15:59:01
+IP: 192.0.2.13, Failed Attempts: 5, First Attempt: 2025-03-10T16:22:12, Last Attempt: 2025-03-10T16:31:00
+IP: 192.0.2.13, Failed Attempts: 5, First Attempt: 2025-03-10T16:33:59, Last Attempt: 2025-03-10T16:43:57
+IP: 192.0.2.13, Failed Attempts: 6, First Attempt: 2025-03-10T16:56:09, Last Attempt: 2025-03-10T17:05:27
+IP: 192.0.2.13, Failed Attempts: 8, First Attempt: 2025-03-10T17:07:19, Last Attempt: 2025-03-10T17:11:56
+IP: 198.51.100.22, Failed Attempts: 6, First Attempt: 2025-03-10T13:55:10, Last Attempt: 2025-03-10T14:05:05
+IP: 198.51.100.22, Failed Attempts: 6, First Attempt: 2025-03-10T14:15:04, Last Attempt: 2025-03-10T14:24:57
+IP: 198.51.100.22, Failed Attempts: 5, First Attempt: 2025-03-10T14:32:35, Last Attempt: 2025-03-10T14:42:09
+IP: 198.51.100.22, Failed Attempts: 5, First Attempt: 2025-03-10T14:45:51, Last Attempt: 2025-03-10T14:55:47
+IP: 198.51.100.22, Failed Attempts: 9, First Attempt: 2025-03-10T14:57:23, Last Attempt: 2025-03-10T15:06:52
+IP: 198.51.100.22, Failed Attempts: 5, First Attempt: 2025-03-10T15:11:13, Last Attempt: 2025-03-10T15:21:00
+IP: 198.51.100.22, Failed Attempts: 8, First Attempt: 2025-03-10T15:49:59, Last Attempt: 2025-03-10T15:59:45
+IP: 198.51.100.22, Failed Attempts: 5, First Attempt: 2025-03-10T16:10:56, Last Attempt: 2025-03-10T16:20:31
+IP: 198.51.100.22, Failed Attempts: 9, First Attempt: 2025-03-10T16:26:35, Last Attempt: 2025-03-10T16:36:12
+IP: 198.51.100.22, Failed Attempts: 5, First Attempt: 2025-03-10T16:44:24, Last Attempt: 2025-03-10T16:54:14
+IP: 198.51.100.99, Failed Attempts: 8, First Attempt: 2025-03-10T13:50:42, Last Attempt: 2025-03-10T13:59:55
+IP: 198.51.100.99, Failed Attempts: 5, First Attempt: 2025-03-10T14:00:45, Last Attempt: 2025-03-10T14:10:13
+IP: 198.51.100.99, Failed Attempts: 13, First Attempt: 2025-03-10T14:13:52, Last Attempt: 2025-03-10T14:23:03
+IP: 198.51.100.99, Failed Attempts: 7, First Attempt: 2025-03-10T14:24:18, Last Attempt: 2025-03-10T14:32:35
+IP: 198.51.100.99, Failed Attempts: 5, First Attempt: 2025-03-10T14:50:51, Last Attempt: 2025-03-10T14:59:48
+IP: 198.51.100.99, Failed Attempts: 8, First Attempt: 2025-03-10T15:02:13, Last Attempt: 2025-03-10T15:11:31
+IP: 198.51.100.99, Failed Attempts: 5, First Attempt: 2025-03-10T15:13:05, Last Attempt: 2025-03-10T15:22:58
+IP: 198.51.100.99, Failed Attempts: 7, First Attempt: 2025-03-10T15:37:45, Last Attempt: 2025-03-10T15:46:35
+IP: 198.51.100.99, Failed Attempts: 8, First Attempt: 2025-03-10T15:54:43, Last Attempt: 2025-03-10T16:04:00
+IP: 198.51.100.99, Failed Attempts: 10, First Attempt: 2025-03-10T16:08:31, Last Attempt: 2025-03-10T16:18:07
+IP: 198.51.100.99, Failed Attempts: 7, First Attempt: 2025-03-10T16:29:06, Last Attempt: 2025-03-10T16:38:56
+IP: 198.51.100.99, Failed Attempts: 5, First Attempt: 2025-03-10T16:39:27, Last Attempt: 2025-03-10T16:47:38
+
+Total count of failed attemps per login: 
+
+IP: 198.51.100.66, Failed Attempts: 89
+IP: 198.51.100.77, Failed Attempts: 85
+IP: 198.51.100.55, Failed Attempts: 71
+IP: 192.0.2.77, Failed Attempts: 78
+IP: 203.0.113.150, Failed Attempts: 70
+IP: 203.0.113.46, Failed Attempts: 77
+IP: 192.0.2.99, Failed Attempts: 77
+IP: 203.0.113.45, Failed Attempts: 99
+IP: 198.51.100.33, Failed Attempts: 90
+IP: 203.0.113.200, Failed Attempts: 76
+IP: 198.51.100.88, Failed Attempts: 87
+IP: 203.0.113.100, Failed Attempts: 58
+IP: 192.0.2.55, Failed Attempts: 91
+IP: 192.0.2.13, Failed Attempts: 84
+IP: 198.51.100.22, Failed Attempts: 76
+IP: 198.51.100.99, Failed Attempts: 104
+
+Graph of top 5 attackers saved as: Top_5_Attackers.png
